@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com/; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+	<script src="components/loader.js"></script>
+	<link rel="stylesheet" href="components/loader.css">
+	<link rel="stylesheet" href="login.css">
+	<script src="login.js"></script>
+
+</head>
+
+<body>
+	<section class="card">
+		<div class="card-content">
+			<p>ログイン</p>
+			<p>ID</p>
+			<div class="form">
+				<div class="center">
+					<input type="text" id="username" autocomplete="off"></input>
+				</div>
+			</div>
+			<!--IDを入力する欄-->
+			<p>パスワード</p>
+			<div class="form">
+				<div class="center">
+					<input type="password" id="password" autocomplete="off"></input>
+				</div>
+			</div>
+			<div class="center">
+				<button id="loginbutton" onClick="roguin();">ログイン</button>
+			</div>
+			<!--ログインボタンを押すとroguin関数を動かす-->
+			<div class="center">
+				<p class="kotira">――――――― または ―――――――</p>
+			</div>
+			<div class="center">
+				<a href="registration.html"><button id="registrationbutton">アカウントを作成</button></a>
+				<!--新規登録ボタンを押すとsinki関数を動かす-->
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
