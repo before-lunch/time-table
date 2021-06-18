@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <script src="components/loader.js"></script>
+	<link rel="stylesheet" href="registration.css">
+    <script src="registration.js"></script>
+</head>
+<body>
+	<section class="card">
+		<div class="card-content">
+			<p>新規登録</p>
+			<p>ID</p>
+			<div class="form">
+				<div class="center">
+					<input type="text" id="username" autocomplete="off"></textarea>
+				</div>
+			</div>
+			<p>パスワード</p>
+			<div class="form">
+				<div class="center">
+					<input type="password" id="password" autocomplete="off"></textarea>
+				</div>
+			</div>
+			<div class="center">
+				<button id="registrationbutton" onClick="sinki();">登録</button>
+				<!--新規登録ボタンを押すとsinki関数を動かす-->
+			</div>
+			<div class="center">
+				<p class="kotira">――――――― または ―――――――</p>
+			</div>
+			<div class="center">
+				<a href="index.html"><button id="loginbutton">アカウントにログイン</button></a>
+				<!--ログインボタンを押すとroguin関数を動かす-->
+			</div>
+		</div>
+	</section>
+</body>
+</html>
